@@ -8,6 +8,10 @@ var privateData = require('./routes/private-data');
 
 var portDecision = process.env.PORT || 5000;
 
+app.get('/', function(req, res){
+  res.sendFile(path.resolve('./public/views/index.html'));
+});
+
 app.use(express.static('public'));
 app.use(bodyParser.json());
 
