@@ -6,7 +6,7 @@ AngularFire with token authentication on Node backend server. This branch uses t
   ```shell
   $ git clone https://github.com/LukeSchlangen/nodeFire
   $ cd nodeFire
-  $ git checkout sql-authorization
+  $ git checkout mongo-authorization
   $ npm install
   ```
 
