@@ -68,6 +68,8 @@ AngularFire with token authentication on Node backend server. This branch uses t
     );
     ```
     
+    To in sert the secrets: 
+    
     ```javascript
     db.secrets.insert(
        [
