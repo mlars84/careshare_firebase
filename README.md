@@ -67,6 +67,19 @@ AngularFire with token authentication on Node backend server. This branch uses t
        ]
     );
     ```
+    
+    ```javascript
+    db.secrets.insert(
+       [
+        { secrecyLevel: 1, secretText: 'My toothbrush is blue' },
+        { secrecyLevel: 2, secretText: 'Luke is getting tacos for lunch' },
+        { secrecyLevel: 3, secretText: 'My underwear is gray' },
+        { secrecyLevel: 4, secretText: 'This is pretty secret' },
+        { secrecyLevel: 5, secretText: 'This is the most secret of all the secrets' },
+        { secrecyLevel: 3, secretText: 'The CIA is listening to your phone now' }
+       ]
+    );
+    ```
   Because you have set up google OAuth, you will need to log in with a google account (an email with `@gmail.com` will work great). If you have a second google account, that will make it easy to see the differences for people with differing clearance levels.
 
 8. Run `npm start` to run your application on `localhost:5000`
