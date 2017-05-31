@@ -1,5 +1,5 @@
 {
-  "name": "nodefire-attempt2",
+  "name": "CareShare",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,9 @@
     "start": "node server/app.js",
     "test": "nodemon server/app.js"
   },
-  "author": "Luke Schlangen",
-  "license": "MIT",
+  "CareShare creator": "Matt Larson",
+  "nodefire author": "Luke Schlangen",
+  "nodefire license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
