@@ -4,7 +4,7 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var decoder = require('./modules/decoder');
 var mongoConnection = require('./modules/mongo-connection');
-var privateData = require('./routes/private-data');
+var privateData = require('./routes/careprofile-route');
 
 var portDecision = process.env.PORT || 5000;
 

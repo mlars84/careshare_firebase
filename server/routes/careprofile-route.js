@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var User = require('../models/user');
-var Secret = require('../models/secret');
+var Secret = require('../models/careprofile');
 
 router.get("/", function(req, res){
   var userEmail = req.decodedToken.email;

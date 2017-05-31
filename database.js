@@ -1,9 +1,6 @@
 db.users.insert(
    [
-    { email: 'lukeschlangen@gmail.com', clearanceLevel: 5 },
-    { email: 'youremail@gmail.com', clearanceLevel: 4 }, // Your Google Email added here
-    { email: 'yourotheremail@gmail.com', clearanceLevel: 2 }, // Your Other Google Email added here
-    { email: 'luke@primeacademy.io', clearanceLevel: 3 }
+    { email: 'matt.a.larson@gmail.com', clearanceLevel: 5 }
    ]
 );
 
